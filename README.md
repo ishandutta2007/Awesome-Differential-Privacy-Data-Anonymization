@@ -1,48 +1,52 @@
-# Awesome-Differential-Privacy-Data-Anonymization
+# Awesome Differential Privacy & Data Anonymization 🛡️
 
-# Awesome-Differential-Privacy-Data-Anonymization
+<div align="center">
 
-**Top Differential Privacy Data Anonymization (Opensource) 🌟 Star if you like it! 🌟**
+<a href="./assets/banner.svg">
+  <img src="./assets/banner.svg" alt="Awesome Differential Privacy & Data Anonymization Banner" width="100%" />
+</a>
 
+<br/>
 
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Differential-Privacy-Data-Anonymization/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Differential-Privacy-Data-Anonymization?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Differential-Privacy-Data-Anonymization/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Differential-Privacy-Data-Anonymization?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Differential-Privacy-Data-Anonymization/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Differential-Privacy-Data-Anonymization?style=flat-square&color=red" alt="GitHub Issues" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Differential-Privacy-Data-Anonymization/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT" /></a>
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+<br/>
 
-*Focused on Synthetic Data Generation, Differential Privacy Guarantees, PII Redaction & Self-Hosted Anonymization Libraries*
+<p align="center">
+  <b>Top Differential Privacy, Data Anonymization & Synthetic Data Solutions 🌟 Star if you like it! 🌟</b><br/>
+  <i>A curated collection of production-grade SaaS platforms and open-source GitHub projects for privacy-preserving AI, PII redaction, differential privacy guarantees, and synthetic data generation.</i>
+</p>
 
-**Last updated: November 2026**
+</div>
 
+---
 
+## 📌 Table of Contents
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Differential Privacy & Data Anonymization**. These tools enable organizations to share, test, and analyze data without exposing individuals—using synthetic data generation, noise injection, and privacy-preserving transformations—from fully managed enterprise platforms to open-source libraries that give teams control over their anonymization pipeline.
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Managed Hosted Platforms](#-saas--managed-hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚖️ Disclaimer](#️-disclaimer)
 
+---
 
+## 🌐 Sector Overview & Market Dynamics
 
-**Examples** include Gretel.ai, Mostly AI, Tonic.ai, Hazy, Statice, Synthesized, Snowflake Differential Privacy, Privitar, K2View, and LeapYear (the category leaders in commercial space).
+The global data anonymization, privacy-enhancing technologies (PETs), and synthetic data generation market is estimated between **$1.3B to $5.5B** in 2025–2026, expanding at an aggressive CAGR of 30%+ driven by generative AI training workloads and tightening privacy compliance regimes (GDPR, EU AI Act, CCPA, HIPAA). 
 
+The sector is **moderately to highly fragmented** rather than winner-take-all, characterized by niche specialists across data modalities (tabular, unstructured text, healthcare records, time-series, relational databases) and deployment boundaries (multi-tenant cloud SaaS vs. air-gapped sovereign enclaves), alongside active strategic acquisitions by enterprise data cloud and AI platform providers (e.g., Snowflake, Informatica/Salesforce, Nvidia).
 
+---
 
-**Open-source emphasis**: This section is expanded with every relevant project for self-hosted anonymization, differential privacy libraries, and open synthetic data generation. **Critical note**: The open-source landscape is rich in libraries—**IBM Diffprivlib** and **OpenDP Tumult Analytics** provide production-grade differential privacy primitives, **Opacus** enables DP training in PyTorch, and **SecretFlow** offers a unified privacy-preserving framework. No open-source project matches Gretel's managed synthetic data workflows, but for teams building custom privacy pipelines, the foundational libraries are mature.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
-
-The global data anonymization, privacy-enhancing technologies (PETs), and synthetic data market is estimated between **$1.3B to $5.5B** in 2025–2026, expanding at an aggressive CAGR of 30%+ driven by generative AI training and tightening privacy mandates (GDPR, EU AI Act). The sector is **moderately to highly fragmented** rather than winner-take-all, characterized by niche specialists across data modalities (tabular, unstructured text, healthcare/relational data) and deployment boundaries (cloud SaaS vs. on-premises sovereign enclaves), alongside strategic acquisitions by cloud data warehouses and governance giants (e.g., Snowflake, Informatica, Nvidia).
-
-## SaaS/Hosted Platforms
+## 🏢 SaaS & Managed Hosted Platforms
 
 | Platform | Company Scale / Valuation / Revenue | Starting Pricing Tier | Free Tier Limits / Trial Limits | Description & Best For |
 | :--- | :--- | :--- | :--- | :--- |
@@ -57,106 +61,171 @@ The global data anonymization, privacy-enhancing technologies (PETs), and synthe
 | **Statice** *(PwC Germany)* | **Strategic acquisition by PwC Germany** (~$1M ARR; $6M+ early funding) | Custom enterprise licensing / pilot scoping | **Trial upon request**: Scoped POC pilot (typically 14 to 30 days guided evaluation, no self-serve free tier) | Irreversible synthetic data generation and data anonymization adhering to European GDPR standards. Best for enterprise compliance workflows. |
 | **LeapYear** *(Acquired by Snowflake)* | **Acquired by Snowflake** (prior $35M+ funding; technology integrated into Snowflake DP) | Integrated into Snowflake platform consumption pricing | **Integrated into Snowflake**: 30-day trial with $400 credits via Snowflake | Pioneer in differential privacy algorithms; standalone platform sunsetted post-acquisition and embedded directly into Snowflake Data Clean Rooms. |
 
-## Open-Source GitHub Projects
+---
 
+## 💻 Open-Source GitHub Projects
 
+Curated open-source projects providing self-hosted differential privacy, data masking, PII de-identification, and synthetic dataset generation. Sorted by GitHub star count (descending).
 
-- **IBM Diffprivlib**
+- ### **[Microsoft Presidio](https://github.com/microsoft/presidio)** <a href="https://github.com/microsoft/presidio/stargazers"><img src="https://img.shields.io/github/stars/microsoft/presidio?style=social&color=white" alt="stars"/></a> 🛡️
+  **Context-aware PII detection, redaction, and de-identification engine** *(MIT License)*  
+  - **Overview**: An enterprise-grade, extensible framework created by Microsoft to detect, redact, and anonymize sensitive PII (personally identifiable information) entities in text, semi-structured tables, and images.
+  - **Key Features**: Customizable rule/pattern recognizers, deep-learning NLP NER models, multi-language support, pseudonymization, hashing, and synthetic surrogate token replacement.
+  - **Tech Stack & Deployment**: Python, C#, Docker, Kubernetes, REST API. `pip install presidio-analyzer presidio-anonymizer`.
+  - **Best For**: Automated end-to-end PII de-identification pipelines in document databases, customer conversations, and AI prompting.
 
-  **IBM Differential Privacy Library** (MIT, ~500+ stars) — **the most mature open-source differential privacy library**, built on top of Google's differential-privacy library . **Features**: **DP mechanisms** (Laplace, Gaussian, exponential); **DP machine learning** (logistic regression, naive Bayes, clustering); **DP statistics** (mean, median, histogram); **budget tracking** for privacy accounting; scikit-learn compatible APIs . **Tech stack**: Python. **Deploy**: `pip install diffprivlib`. **Trade-off**: **Library, not a platform**—no synthetic data generation; you implement the pipeline. **Best for**: developers wanting production-grade DP primitives for statistical queries and ML training.
+- ### **[Synthetic Data Vault (SDV)](https://github.com/sdv-dev/SDV)** <a href="https://github.com/sdv-dev/SDV/stargazers"><img src="https://img.shields.io/github/stars/sdv-dev/SDV?style=social&color=white" alt="stars"/></a> 🧬
+  **Ecosystem for synthetic tabular, relational, and multi-table data** *(Business Source License / Community Open)*  
+  - **Overview**: The most popular Python generative data modeling ecosystem for single-table, multi-table relational databases, and sequential/time-series datasets.
+  - **Key Features**: Copula-based statistical models, deep generative architectures (CTGAN, TVAE), constraints engine, relational referential integrity preservation, and benchmark quality reporting.
+  - **Tech Stack & Deployment**: Python. `pip install sdv`.
+  - **Best For**: Data science teams needing production-scale synthetic relational test data without exposing sensitive real-world tables.
 
+- ### **[Google Differential Privacy](https://github.com/google/differential-privacy)** <a href="https://github.com/google/differential-privacy/stargazers"><img src="https://img.shields.io/github/stars/google/differential-privacy?style=social&color=white" alt="stars"/></a> 🔒
+  **Google's reference production differential privacy library** *(Apache 2.0)*  
+  - **Overview**: Industrial-strength libraries from Google implementing foundational $(\epsilon, \delta)$-differential privacy algorithms used across Google products.
+  - **Key Features**: Core DP mechanisms (Laplace, Gaussian), bounded statistics (sums, counts, percentiles), differential privacy SQL engines, and *Privacy on Beam* for large-scale Apache Beam pipelines.
+  - **Tech Stack & Deployment**: C++, Go, Java, Python (PipelineDP).
+  - **Best For**: Enterprise engineers building highly scalable, mathematically audited differential privacy pipelines for big data analytics.
 
+- ### **[SecretFlow](https://github.com/secretflow/secretflow)** <a href="https://github.com/secretflow/secretflow/stargazers"><img src="https://img.shields.io/github/stars/secretflow/secretflow?style=social&color=white" alt="stars"/></a> 🌐
+  **Unified framework for privacy-preserving data analysis and ML** *(Apache 2.0)*  
+  - **Overview**: A comprehensive open-source privacy framework orchestrating differential privacy, multi-party computation (MPC), federated learning, and Trusted Execution Environments (TEEs).
+  - **Key Features**: Differentially private model training, secure multi-party private set intersection (PSI), split learning, and privacy-preserving SQL computation across distrusting organizations.
+  - **Tech Stack & Deployment**: Python, C++. Self-hosted cluster or local deployment.
+  - **Best For**: Enterprises co-training AI models or performing joint analytics across regulated institutions without centralized data sharing.
 
-- **OpenDP Tumult Analytics**
+- ### **[Opacus (PyTorch)](https://github.com/pytorch/opacus)** <a href="https://github.com/pytorch/opacus/stargazers"><img src="https://img.shields.io/github/stars/pytorch/opacus?style=social&color=white" alt="stars"/></a> 🧠
+  **High-speed DP-SGD training for deep learning models in PyTorch** *(Apache 2.0)*  
+  - **Overview**: Meta's standard library for training deep learning models with differential privacy guarantees directly in PyTorch.
+  - **Key Features**: DP-SGD (Differentially Private Stochastic Gradient Descent), vectorization over mini-batches for GPU acceleration, privacy accounting (Rényi Differential Privacy / Gaussian mechanisms), and Hugging Face transformer compatibility.
+  - **Tech Stack & Deployment**: Python, PyTorch. `pip install opacus`.
+  - **Best For**: Machine learning researchers and AI practitioners training vision or NLP foundation models with mathematical privacy against data reconstruction attacks.
 
-  **Python library for privately computing aggregate queries** (Apache 2.0) — **the most practical open-source DP tool for data analysts**, built atop Tumult Core . **Features**: **DP aggregate queries** on tabular data; **privacy budget accounting**; **Spark integration** for large datasets; **sensible defaults** for noise calibration; designed for analysts without DP expertise . **Tech stack**: Python. **Deploy**: `pip install tumult-analytics`. **Trade-off**: **Aggregate queries only**—not for synthetic data or row-level anonymization. **Best for**: data teams wanting to publish DP aggregate statistics without deep DP expertise.
+- ### **[Greenmask](https://github.com/GreenmaskIO/greenmask)** <a href="https://github.com/GreenmaskIO/greenmask/stargazers"><img src="https://img.shields.io/github/stars/GreenmaskIO/greenmask?style=social&color=white" alt="stars"/></a> 🎭
+  **PostgreSQL & database logical dump anonymization tool** *(Apache 2.0)*  
+  - **Overview**: High-performance, stateless database masking and synthetic data generator designed to integrate into PostgreSQL logical backup pipelines (`pg_dump`).
+  - **Key Features**: In-flight transformation, deterministic pseudonymization, synthetic noise injection, referential integrity preservation across foreign key cycles, and database subsetting.
+  - **Tech Stack & Deployment**: Go CLI binary, Docker. Zero database overhead.
+  - **Best For**: DevOps and platform engineers automatically sanitizing staging and dev test databases from production dumps.
 
+- ### **[CTGAN](https://github.com/sdv-dev/CTGAN)** <a href="https://github.com/sdv-dev/CTGAN/stargazers"><img src="https://img.shields.io/github/stars/sdv-dev/CTGAN?style=social&color=white" alt="stars"/></a> 📊
+  **Conditional Generative Adversarial Network for tabular data** *(Apache 2.0 / MIT)*  
+  - **Overview**: Deep learning synthetic data generator designed specifically for tabular records with mixed continuous, categorical, and skewed distributions.
+  - **Key Features**: Mode-specific normalization for multi-modal numeric columns, conditional generator architecture, and tabular variational autoencoder (TVAE) alternatives.
+  - **Tech Stack & Deployment**: Python, PyTorch. `pip install ctgan`.
+  - **Best For**: Researchers and data teams synthesizing tabular datasets with complex cross-column dependencies.
 
+- ### **[IBM Diffprivlib](https://github.com/IBM/differential-privacy-library)** <a href="https://github.com/IBM/differential-privacy-library/stargazers"><img src="https://img.shields.io/github/stars/IBM/differential-privacy-library?style=social&color=white" alt="stars"/></a> 📦
+  **General-purpose differential privacy library with scikit-learn ML models** *(MIT License)*  
+  - **Overview**: A mature, developer-friendly Python library developed by IBM for differential privacy analytics and drop-in machine learning.
+  - **Key Features**: DP Laplace/Gaussian/exponential noise mechanisms, DP scikit-learn models (logistic regression, naive Bayes, PCA, k-means, decision trees), DP histogram/mean statistics, and privacy budget accounting.
+  - **Tech Stack & Deployment**: Python. `pip install diffprivlib`.
+  - **Best For**: Data scientists seeking drop-in DP replacements for scikit-learn estimators and basic statistical aggregation.
 
-- **Opacus**
+- ### **[ARX Data Anonymizer](https://github.com/arx-deidentifier/arx)** <a href="https://github.com/arx-deidentifier/arx/stargazers"><img src="https://img.shields.io/github/stars/arx-deidentifier/arx?style=social&color=white" alt="stars"/></a> 🏛️
+  **Comprehensive open-source de-identification and risk evaluation suite** *(Apache 2.0)*  
+  - **Overview**: Highly respected academic and industrial software for biomedical and enterprise data anonymization.
+  - **Key Features**: Multi-model privacy protection: supports $k$-anonymity, $\ell$-diversity, $t$-closeness, $\delta$-presence, and $(\epsilon, \delta)$-differential privacy; re-identification risk analysis and utility metric optimization.
+  - **Tech Stack & Deployment**: Java, Desktop GUI, Cross-platform CLI, and Java API.
+  - **Best For**: Healthcare, clinical trials, and government data stewards who require audited risk assessments alongside syntactic and differential privacy.
 
-  **PyTorch library for training with differential privacy** (Apache 2.0) — **the standard for DP machine learning**, maintained by Meta . **Features**: **DP-SGD** implementation; **privacy accounting** (RDP, Gaussian); **gradient clipping and noise injection**; **compatible with standard PyTorch training loops**; **memory-efficient** for large models . **Tech stack**: Python, PyTorch. **Deploy**: `pip install opacus`. **Trade-off**: **ML training only**—not for tabular anonymization or synthetic data. **Best for**: ML engineers wanting to train models with formal DP guarantees—especially those already in PyTorch.
+- ### **[OpenMined PyDP](https://github.com/OpenMined/PyDP)** <a href="https://github.com/OpenMined/PyDP/stargazers"><img src="https://img.shields.io/github/stars/OpenMined/PyDP?style=social&color=white" alt="stars"/></a> 🐍
+  **Python bindings for Google's differential privacy library** *(Apache 2.0)*  
+  - **Overview**: Developed by the OpenMined community, PyDP provides idiomatic Python bindings to Google’s high-performance C++ Differential Privacy primitives.
+  - **Key Features**: Bounded differential privacy metrics (mean, sum, variance, standard deviation, median, percentiles), noise addition, and budget consumption monitoring.
+  - **Tech Stack & Deployment**: Python, C++ bindings. `pip install pydp`.
+  - **Best For**: Python programmers wanting the audited safety of Google's C++ DP core without writing C++.
 
+- ### **[OpenDP Core](https://github.com/opendp/opendp)** <a href="https://github.com/opendp/opendp/stargazers"><img src="https://img.shields.io/github/stars/opendp/opendp?style=social&color=white" alt="stars"/></a> 🔬
+  **Modular differential privacy library incubated at Harvard University** *(MIT License)*  
+  - **Overview**: The foundational library of the OpenDP initiative (Harvard Privacy Tools Project), focused on mathematically verified privacy implementations.
+  - **Key Features**: Composable transformations and measurement primitives in Rust with first-class Python and R bindings; formal framework for privacy accounting and privacy loss distributions.
+  - **Tech Stack & Deployment**: Rust core with Python (`pip install opendp`) and R packages.
+  - **Best For**: Rigorous scientific workflows, public policy research, and production privacy services requiring provably correct DP primitives.
 
+- ### **[OpenDP SmartNoise SDK](https://github.com/opendp/smartnoise-sdk)** <a href="https://github.com/opendp/smartnoise-sdk/stargazers"><img src="https://img.shields.io/github/stars/opendp/smartnoise-sdk?style=social&color=white" alt="stars"/></a> 🔔
+  **Tools and services for differentially private SQL and synthetic data** *(MIT License)*  
+  - **Overview**: Developed in collaboration between Microsoft and OpenDP to bring differential privacy to relational databases and tabular data synthesis.
+  - **Key Features**: Differentially private SQL query translation across PostgreSQL, SQL Server, and Spark; includes `smartnoise-synth` for DP tabular synthesis (MWEM, DP-CTGAN, PATE-CTGAN).
+  - **Tech Stack & Deployment**: Python. `pip install opendp-smartnoise`.
+  - **Best For**: Querying sensitive relational databases with automatic differential privacy noise injection and generating DP synthetic tables.
 
-- **SecretFlow**
+- ### **[Microsoft dp-transformers](https://github.com/microsoft/dp-transformers)** <a href="https://github.com/microsoft/dp-transformers/stargazers"><img src="https://img.shields.io/github/stars/microsoft/dp-transformers?style=social&color=white" alt="stars"/></a> 🤖
+  **Differentially private fine-tuning of Hugging Face Transformers** *(MIT License)*  
+  - **Overview**: Bridges PyTorch Opacus and Hugging Face's `transformers` library to fine-tune autoregressive and masked language models with differential privacy.
+  - **Key Features**: Efficient gradient clipping for transformer self-attention blocks, privacy accounting for NLP training runs, and drop-in integration with Hugging Face `Trainer`.
+  - **Tech Stack & Deployment**: Python, PyTorch, Hugging Face.
+  - **Best For**: Fine-tuning LLMs on sensitive internal corpora (medical notes, confidential chat logs) with formal differential privacy bounds.
 
-  **Unified framework for privacy-preserving data analysis and ML** (Apache 2.0) — **the most comprehensive open-source privacy framework**, covering DP, MPC, and federated learning . **Features**: **Differential privacy**; **secure multi-party computation (MPC)**; **federated learning**; **split learning**; **TEE integration**; designed for enterprise privacy-preserving analytics . **Tech stack**: Python, C++. **Deploy**: Self-hosted. **Trade-off**: **Complex framework**—steep learning curve; not a turnkey anonymization tool. **Best for**: enterprises building comprehensive privacy-preserving data platforms—willing to invest in framework adoption.
+- ### **[Microsoft Synthetic Data Showcase](https://github.com/microsoft/synthetic-data-showcase)** <a href="https://github.com/microsoft/synthetic-data-showcase/stargazers"><img src="https://img.shields.io/github/stars/microsoft/synthetic-data-showcase?style=social&color=white" alt="stars"/></a> 🖥️
+  **Privacy-preserving synthetic dataset generator and web dashboard** *(MIT License)*  
+  - **Overview**: An open-source tool and interactive web UI for generating privacy-preserving synthetic categorical datasets and visual aggregate dashboards.
+  - **Key Features**: Generates $k$-anonymous synthetic attribute datasets, private aggregate visualizations, and matrix evaluations directly in the browser or via CLI.
+  - **Tech Stack & Deployment**: TypeScript, Python, WebAssembly.
+  - **Best For**: Public health agencies, NGOs, and researchers seeking to publish aggregate data visualizations without leaking private individual responses.
 
+- ### **[Microsoft DPSDA (Private Evolution)](https://github.com/microsoft/DPSDA)** <a href="https://github.com/microsoft/DPSDA/stargazers"><img src="https://img.shields.io/github/stars/microsoft/DPSDA?style=social&color=white" alt="stars"/></a> 🧪
+  **Differentially private synthetic data generation without model training (ICLR 2024)** *(MIT License)*  
+  - **Overview**: Implementation of "Private Evolution", a training-free framework that queries pre-trained foundation models (LLMs or diffusion models) via API to produce DP synthetic datasets.
+  - **Key Features**: No backpropagation or weight updates required; samples candidate synthetic data and selects optimal candidates under differential privacy noise.
+  - **Tech Stack & Deployment**: Python, PyTorch.
+  - **Best For**: AI researchers investigating zero-training DP synthetic generation using API-accessible foundation models.
 
-
-- **DPMM**
-
-  **Synthetic tabular data generation with DP guarantees** (open source, from SAS) . **Features**: **DP synthetic tabular data**; **end-to-end DP guarantees**; rich functionality for synthetic data generation . **Tech stack**: Python. **Deploy**: Self-hosted. **Trade-off**: **Narrower than Gretel**—synthetic tabular data only; smaller community. **Best for**: teams wanting open-source DP synthetic tabular data without managed platform costs.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Microsoft DPSDA** — Private Evolution for generating DP synthetic data without training (ICLR 2024) . **Note**: Research implementation; not production-hardened. **Best for**: researchers exploring DP synthetic data generation.
-
-- **SAP SPRINT** — DP fine-tuning and inference for transformers via MPC . **Note**: Specialized for transformer models; complex setup. **Best for**: teams needing DP fine-tuning of LLMs.
-
-- **OpenMined PyDP** — Python DP library built on Google's differential-privacy . **Note**: Alternative to Diffprivlib; smaller community. **Best for**: teams wanting Google-backed DP primitives.
-
-
-
-**Frameworks for building custom systems**: Combine **IBM Diffprivlib** for DP primitives with **Opacus** for DP ML training and **Tumult Analytics** for DP aggregates—creating a complete open-source DP stack. **For synthetic data**, **DPMM** and **SecretFlow** provide generation capabilities. **None of these match Gretel's managed workflows**, but for teams building custom pipelines, the libraries are production-capable.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, license (for open-source), and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Differential privacy and anonymization tools handling sensitive data must comply with data protection regulations (GDPR, CCPA, HIPAA, etc.). **Differential privacy provides formal guarantees, but implementation errors can void them**—validate configurations with privacy experts.
-
-- **The "managed synthetic data" vs. "DP library" vs. "DP ML training" vs. "privacy framework" distinction is critical.** **Gretel.ai, Mostly AI, Tonic.ai, Hazy, Statice, and Synthesized** are **managed synthetic data platforms**—they generate privacy-safe datasets with managed infrastructure . **Snowflake Differential Privacy** provides **native DP** within clean rooms—entity-level noise injection for aggregate queries . **IBM Diffprivlib and Tumult Analytics** are **DP libraries**—primitives for building custom DP pipelines . **Opacus** is **DP ML training**—DP-SGD for PyTorch models . **SecretFlow** is a **privacy framework**—combining DP, MPC, and federated learning . **Choose based on whether you need synthetic data, DP aggregates, DP models, or a comprehensive framework.**
-
-- **Gretel's free tier is the most generous for synthetic data**—15 credits/month covers ~100K synthetic records . **The trade-off**: no credit rollover; 2 concurrent workers on free tier.
-
-- **Mostly AI's 2 credits/day** is designed for experimentation, not production—**daily top-up, no rollover** . **For sustained use, contact sales.**
-
-- **Tonic.ai's free tier is $5 credits/month**—sufficient for ~9 complex sessions . **The $29/month plan adds $25 credits.**
-
-- **Hazy's free tier up to 100K rows/day** is the most generous daily allowance in this category . **Developer tier at $100/month is accessible for small teams.**
-
-- **Synthesized's SDK is free with DP guarantees built in**—including self-hosting on private cloud/on-premise . **For teams wanting self-hosted synthetic data with DP, it is the most accessible entry point.**
-
-- **Snowflake Differential Privacy is Clean Room-only**—it cannot be used outside clean room queries . **Do not evaluate it as a standalone anonymization tool.**
-
-- **Statice and Privitar have no free tier**—Statice offers trial only; Privitar is quote-only . **Evaluation requires sales engagement.**
-
-- Self-hosted open-source solutions require proper setup and privacy expertise. **DP guarantees depend on correct epsilon selection and budget accounting**—ensure your deployment includes privacy review before publishing DP results or synthetic data.
-
-
+- ### **[OpenDP Tumult Analytics](https://github.com/opendp/tumult-analytics)** <a href="https://github.com/opendp/tumult-analytics/stargazers"><img src="https://img.shields.io/github/stars/opendp/tumult-analytics?style=social&color=white" alt="stars"/></a> 📈
+  **Python framework for differentially private data analysis atop Spark** *(Apache 2.0)*  
+  - **Overview**: A high-level Python library designed for data analysts to execute complex aggregate queries with rigorous differential privacy guarantees.
+  - **Key Features**: Built atop Tumult Core and Apache Spark; privacy budget management, automated noise calibration, and support for complex multi-table joins. Adopted by the U.S. Census Bureau and Wikimedia Foundation.
+  - **Tech Stack & Deployment**: Python, Apache Spark. `pip install tmlt.analytics`.
+  - **Best For**: Enterprise and government data teams publishing aggregate statistics on massive tabular datasets.
 
 ---
 
+## 🤝 How to Contribute
 
+Contributions are warmly welcomed! Please follow these simple guidelines:
 
-**Made for privacy engineers, data scientists, and organizations building transparent anonymization solutions.**
+1. **Fork the repository** to your personal account.
+2. **Add/Edit entries** in `README.md` maintaining consistent formatting, badges, and factual descriptions.
+3. **Include essential metadata**:
+   - Official name and repository link
+   - GitHub stars badge (`style=social&color=white`) linking to the stargazers page
+   - License type
+   - 2–3 concise sentences outlining core features, tech stack, and best-fit use case.
+4. **Submit a Pull Request (PR)** with a clear summary of your additions.
 
-Let's make Differential Privacy & Data Anonymization more open, data-driven, and privacy-safe.
+---
+
+## 💖 Support & Sponsorship
+
+If this curated repository saved you time, informed your privacy architecture, or helped your organization choose the right tools:
+
+- 🌟 **Star the repository** to boost discoverability on GitHub!
+- 🍴 **Fork and share** with colleagues, privacy engineers, and data science teams!
+- ☕ **Buy me a coffee / Become a sponsor**: If you find value in my open-source work and curated awesome-lists, please consider supporting continued maintenance via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007)!
+
+<div align="center">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?style=for-the-badge&logo=github-sponsors" alt="Sponsor on GitHub" />
+  </a>
+</div>
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Differential-Privacy-Data-Anonymization&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Differential-Privacy-Data-Anonymization&type=date&legend=top-left)
+
+---
+
+## ⚖️ Disclaimer
+
+- This is a **community-curated collection** intended for research, architectural evaluation, and educational purposes—not an explicit legal or technical endorsement.
+- Differential privacy algorithms and anonymization tools handling sensitive customer data must adhere strictly to applicable compliance frameworks (GDPR, HIPAA, CCPA, EU AI Act).
+- **Formal mathematical guarantees depend entirely on correct parameter selection ($\epsilon$, $\delta$), noise distribution, sensitivity calibration, and rigorous privacy budget composition.** Always review pipeline implementations with certified privacy engineers.
+
+---
+
+<div align="center">
+  <sub>Maintained with 🛡️ for privacy engineers, AI researchers, and data stewards worldwide.</sub>
+</div>
