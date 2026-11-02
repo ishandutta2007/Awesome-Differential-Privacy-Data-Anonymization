@@ -9,7 +9,7 @@
 <br/>
 
 <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-<a href="https://github.com/ishandutta2007/Awesome-Differential-Privacy-Data-Anonymization/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Differential-Privacy-Data-Anonymization?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Differential-Privacy-Data-Anonymization/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Differential-Privacy-Data-Anonymization?style=flat-square&logo=github&color=gold" alt="GitHub_Stars" /></a>
 <a href="https://github.com/ishandutta2007/Awesome-Differential-Privacy-Data-Anonymization/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Differential-Privacy-Data-Anonymization?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
 <a href="https://github.com/ishandutta2007/Awesome-Differential-Privacy-Data-Anonymization/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Differential-Privacy-Data-Anonymization?style=flat-square&color=red" alt="GitHub Issues" /></a>
 <a href="https://github.com/ishandutta2007/Awesome-Differential-Privacy-Data-Anonymization/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT" /></a>
@@ -65,7 +65,7 @@ The sector is **moderately to highly fragmented** rather than winner-take-all, c
 
 ## 💻 Open-Source GitHub Projects
 
-Curated open-source projects providing self-hosted differential privacy, data masking, PII de-identification, and synthetic dataset generation. Sorted by GitHub star count (descending).
+Curated open-source projects providing self-hosted differential privacy, data masking, PII de-identification, and synthetic dataset generation. Sorted by GitHub Stars_Count (descending).
 
 - ### **[Microsoft Presidio](https://github.com/microsoft/presidio)** <a href="https://github.com/microsoft/presidio/stargazers"><img src="https://img.shields.io/github/stars/microsoft/presidio?style=social&color=white" alt="stars"/></a> 🛡️
   **Context-aware PII detection, redaction, and de-identification engine** *(MIT License)*  
@@ -189,7 +189,7 @@ Contributions are warmly welcomed! Please follow these simple guidelines:
 2. **Add/Edit entries** in `README.md` maintaining consistent formatting, badges, and factual descriptions.
 3. **Include essential metadata**:
    - Official name and repository link
-   - GitHub stars badge (`style=social&color=white`) linking to the stargazers page
+   - GitHub_Stars_Badge (`style=social&color=white`) linking to the stargazers page
    - License type
    - 2–3 concise sentences outlining core features, tech stack, and best-fit use case.
 4. **Submit a Pull Request (PR)** with a clear summary of your additions.
