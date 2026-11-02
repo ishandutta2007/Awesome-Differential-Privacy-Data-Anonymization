@@ -32,79 +32,30 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global data anonymization, privacy-enhancing technologies (PETs), and synthetic data market is estimated between **$1.3B to $5.5B** in 2025–2026, expanding at an aggressive CAGR of 30%+ driven by generative AI training and tightening privacy mandates (GDPR, EU AI Act). The sector is **moderately to highly fragmented** rather than winner-take-all, characterized by niche specialists across data modalities (tabular, unstructured text, healthcare/relational data) and deployment boundaries (cloud SaaS vs. on-premises sovereign enclaves), alongside strategic acquisitions by cloud data warehouses and governance giants (e.g., Snowflake, Informatica, Nvidia).
 
 ## SaaS/Hosted Platforms
 
-
-
-- **Gretel.ai**
-
-  **Synthetic data platform** for tabular, text, and time-series data. **Pricing**: **Free tier with 15 monthly credits** (enough for ~100K synthetic records via Workflows, ~2M Transform records, or ~2M PII detection records); **$2.00/credit** beyond free tier; **Team $295/month** (10 concurrent jobs, 99.5% API SLA, pooled credits) . **Free tier**: Yes, 15 credits/month (no rollover). **Best for**: teams wanting managed synthetic data with PII detection—**trade-off**: credit consumption scales with data complexity; free tier limits concurrency to 2 workers.
-
-
-
-- **Mostly AI**
-
-  **Synthetic data platform** for high-fidelity tabular data. **Pricing**: **Free tier with 2 new credits daily** (enough for experimentation); heavier usage requires purchasing credits or contacting sales . **Free tier**: Yes, 2 credits/day (auto top-up). **Best for**: teams wanting daily free experimentation with synthetic tabular data—**trade-off**: daily credit limit restricts production use.
-
-
-
-- **Tonic.ai**
-
-  **Data de-identification and synthesis** platform. **Pricing**: **Free tier with $5 monthly credits** (~9 complex generation sessions); **$29/month plan** with $25 usage credits; additional usage metered; no credit card required for free tier . **Free tier**: Yes, $5 credits/month. **Best for**: developers wanting to try relational synthetic data generation—**trade-off**: token-based metering; complex schemas consume more credits.
-
-
-
-- **Hazy**
-
-  **Synthetic data for banking, finance, and telecom**. **Pricing**: **Free forever tier up to 100K rows/day**; **Developer tier from $100/month**; enterprise custom licenses . **Free tier**: Yes, 100K rows/day. **Best for**: regulated industries wanting synthetic data with generous free tier—**trade-off**: enterprise pricing for production scale.
-
-
-
-- **Statice**
-
-  **Anonymous synthetic data** for enterprises. **Pricing**: **No free version**; **free trial available**; starting price not provided by vendor . **Free tier**: Trial only. **Best for**: enterprises wanting irreversibly anonymous synthetic datasets—**trade-off**: no free tier; quote-only pricing.
-
-
-
-- **Synthesized**
-
-  **Synthetic data SDK with differential privacy**. **Pricing**: **Free SDK** with unlimited generative models and datasets; **default in-built differential privacy guarantees**; **Solo Edition free** adds production sensitive data support, private cloud/on-premise self-hosting, Docker images . **Free tier**: Yes, generous SDK with DP guarantees. **Best for**: developers wanting self-hosted synthetic data with DP built in—**trade-off**: Platform Enterprise requires demo.
-
-
-
-- **Snowflake Differential Privacy**
-
-  **Native DP within Snowflake Data Clean Room**. **Pricing**: Included with Snowflake Clean Rooms; consumption-based credits. **Free tier**: Trial credits. **Best for**: Snowflake customers wanting entity-level privacy in clean room queries—**trade-off**: requires Clean Room configuration; DP not available outside clean rooms .
-
-
-
-- **Privitar**
-
-  **Data privacy platform** for sensitive data provisioning. **Pricing**: **Quote-only**; pricing available upon request; no free version listed . **Free tier**: None. **Best for**: enterprises wanting policy-driven data de-identification—**trade-off**: no self-serve; sales-led.
-
-
-
-- **K2View**
-
-  **Data product platform** with anonymization capabilities. **Pricing**: **From £1,000/year** per Capterra listing . **Free tier**: None. **Best for**: teams wanting data products with built-in anonymization—**trade-off**: broader platform; anonymization is one capability.
-
-
-
-- **LeapYear (Snowflake)**
-
-  **Differential privacy for Snowflake** (acquired by Snowflake). **Note**: LeapYear's technology is now integrated into Snowflake's Differential Privacy offering; standalone availability no longer exists. **Best for**: historical reference—evaluate Snowflake Differential Privacy instead.
-
-
+| Platform | Company Scale / Valuation / Revenue | Starting Pricing Tier | Free Tier Limits / Trial Limits | Description & Best For |
+| :--- | :--- | :--- | :--- | :--- |
+| **Snowflake Differential Privacy** | **$55B–$65B+ Market Cap** (~$3.6B ARR) | **$2.00–$3.00/credit** (Standard/Enterprise compute tiers, consumption-based) | **30-day free trial** with **$400 in free usage credits** (whichever expires first) | Native DP within Snowflake Data Clean Rooms. Best for Snowflake customers requiring entity-level differential privacy in multi-party clean room analytics. |
+| **Privitar** *(Informatica)* | **Acquired by Informatica** (~$8B Salesforce deal; $1.6B+ ARR; Privitar was valued at ~$250M–$400M) | Enterprise contract via sales (historically custom scoping; typically starting at tens of thousands annually) | **Demo on request** (no self-serve free tier or public trial period; 14-to-30 day scoped enterprise pilot upon request) | Sensitive data provisioning, de-identification, and privacy governance. Best for large enterprises requiring policy-driven compliance and data masking. |
+| **Gretel.ai** *(Nvidia)* | **Acquired by Nvidia** for **>$320M+ Valuation** (~$14.6M ARR; $67M+ VC raised) | **Team tier at $295/month** (pooled credits, 10 concurrent jobs); **$2.00/credit** pay-as-you-go | **Free forever plan**: **15 credits/month** (refreshed monthly, max 2 concurrent workers; ~100K synthetic records or ~2M PII detection records) | Managed synthetic data generation with DP and PII redaction for tabular, text, and time-series data. Best for teams wanting full-lifecycle synthetic data APIs. |
+| **Tonic.ai** | **$100M–$250M Valuation** (~$16M–$18M ARR; $45M raised) | **Starter tier from $29/month** (includes $25 usage credits); pay-as-you-go metering for additional compute | **Free forever plan**: **$5 in monthly usage credits** (~9 complex synthesis sessions; no credit card required) | Realistic test data generation, relational synthesis, and differential privacy de-identification for developer databases. Best for test data management. |
+| **K2View** | **$100M–$250M Valuation** (~$20M–$36M ARR; $43M+ growth capital raised) | **From £1,000/year (~$1,300/yr)** starting tier per catalog listing; enterprise custom tiers | **30-day free trial** (for cloud iPaaS / data integration platform evaluation) | Operational data product platform featuring micro-databases and built-in anonymization/tokenization. Best for real-time customer data synthesis. |
+| **Mostly AI** | **~$50M–$100M Est. Valuation** (~$15M–$17M ARR; $25M+ raised) | Enterprise plans require sales quote; credit packs starting from pay-as-you-go tiers | **Free forever plan**: **2 credits refreshed daily** (auto top-up every 24h, designed for persistent developer experimentation) | High-fidelity tabular synthetic data generation with differential privacy guarantees. Best for BFSI and healthcare tabular dataset generation. |
+| **Hazy** | **~$50M–$100M Est. Valuation** (~$3M ARR; $11.3M raised) | **Developer tier from $100/month**; enterprise licensing for on-prem/private cloud | **Free forever tier**: up to **100,000 rows/day** for developer experimentation | Synthetic data replicas built for regulated banking, telecom, and insurance institutions. Best for teams with predictable, mid-scale daily generation. |
+| **Synthesized** | **~$30M–$60M Est. Valuation** (~$3M–$5M ARR; $30M+ raised including 2025 Series A) | **Free SDK / Solo Edition** ($0); Enterprise platform custom licensing | **Free forever SDK & Solo Edition**: unlimited generative models, datasets, and built-in DP guarantees for solo/dev workloads | Synthetic data SDK and agentic test infrastructure with mathematical differential privacy guarantees. Best for developers wanting self-hosted DP generation. |
+| **Statice** *(PwC Germany)* | **Strategic acquisition by PwC Germany** (~$1M ARR; $6M+ early funding) | Custom enterprise licensing / pilot scoping | **Trial upon request**: Scoped POC pilot (typically 14 to 30 days guided evaluation, no self-serve free tier) | Irreversible synthetic data generation and data anonymization adhering to European GDPR standards. Best for enterprise compliance workflows. |
+| **LeapYear** *(Acquired by Snowflake)* | **Acquired by Snowflake** (prior $35M+ funding; technology integrated into Snowflake DP) | Integrated into Snowflake platform consumption pricing | **Integrated into Snowflake**: 30-day trial with $400 credits via Snowflake | Pioneer in differential privacy algorithms; standalone platform sunsetted post-acquisition and embedded directly into Snowflake Data Clean Rooms. |
 
 ## Open-Source GitHub Projects
 
